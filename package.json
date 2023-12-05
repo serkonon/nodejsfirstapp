@@ -4,7 +4,6 @@
   "description": "sergekon's education",
   "main": "test.js",
   "scripts": {
-    "start2": "cross-env PORT=6000 NODE_ENV=test node ./lessons/process.js",
     "start": "cross-env TEXT=\"12 34 Sergey Kononov\" node ./lessons/file-system.js"
   },
   "repository": {
