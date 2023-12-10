@@ -4,7 +4,7 @@
   "description": "sergekon's education",
   "main": "test.js",
   "scripts": {
-    "start": "cross-env TEXT=\"12 34 Sergey Kononov\" node ./lessons/file-system.js"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -13,6 +13,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cross-env": "^7.0.3"
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.2"
   }
 }

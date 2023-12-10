@@ -111,3 +111,4 @@ writeFileAsync(fileName1, text)
     .then(count => writeFileAsync(fileName2, `Кол-во слов ${count}`))
     .then(() => removeFileAsync(fileName1))
 
+// "start": "cross-env TEXT=\"12 34 Sergey Kononov\" node ./lessons/file-system.js"
